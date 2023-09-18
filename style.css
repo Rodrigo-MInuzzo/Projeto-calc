@@ -29,13 +29,15 @@ body {
 }
 
 #resposta {
-
+    
     width: 40vh;
     height: 40px;
     margin:10px;
     color: rgb(5, 6, 5);
     background-color: aliceblue;
-
+    display: flex;
+    justify-content: center; /* Alinhamento horizontal ao centro */
+    align-items: center; 
 }
 
 button {
